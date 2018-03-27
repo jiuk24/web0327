@@ -7,7 +7,7 @@ function requestCallbackFunction (req, res) {
     console.log('hello');
   // }
   res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello World! WORLD HELLO ASD');
+  res.end('Hello World! WORLD HELLO');
 }
 
 var server = http.createServer(
